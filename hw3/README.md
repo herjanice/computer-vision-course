@@ -3,18 +3,18 @@ Results and finding of this homework could be found [here](https://github.com/he
 
 File directory
 
-resource/
-- times.jpg, img1.png, img2.jpg, img3.jpg, img4.jpg, img5.png (part1) • img5.png, seq0.mp4 (part2)
-- BL_secret1.png,BL_secret2.png(part3)
-- frame1.jpg,frame2.jpg,frame3.jpg(part4)
-
-src/
-- part1.py
-- part2.py
-- part3.py
-- part4.py
-- utils.py
-- hw3.sh
+- resource/
+  - times.jpg, img1.png, img2.jpg, img3.jpg, img4.jpg, img5.png (part1)
+  - img5.png, seq0.mp4 (part2)
+  - BL_secret1.png,BL_secret2.png(part3)
+  - frame1.jpg,frame2.jpg,frame3.jpg(part4)
+- src/
+  - part1.py
+  - part2.py
+  - part3.py
+  - part4.py
+  - utils.py
+  - hw3.sh
 
 ## Part 1: Homography Estimation
 Goal:  Gain familiarity with the Direct Linear Transformation (DLT) estimation method and practice forward warping in computer vision applications.
