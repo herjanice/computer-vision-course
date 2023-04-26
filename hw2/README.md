@@ -22,12 +22,16 @@ Task:  Use SIFT in OpenCV to extract features and apply K-Nearest Neighbor algor
 
 **part1/p1.py**
 - Read image, construct feature representations, classify features, etc. 
+
 **part1/get_tiny_images.py ## TO DO ##**
 - Build tiny images features.
+
 **part1/build_vocabulary.py ## TO DO ##**
 - Sample SIFT descriptors from training images, cluster them with k-means and return centroids.
+
 **part1/get_bags_of_sifts.py ## TO DO ##**
 - Construct SIFT and build a histogram indicating how many times each centroid was used.
+
 **part1/nearest_neighbor_classify.py ## TO DO ##**
 - Predict the category for each test image. (USE sklearn.neighbors.KNeighborsClassifier)
 
@@ -36,15 +40,21 @@ Task: Use convolutional neural network as a feature extractor and perform image 
 
 **part2/main.py**
 - Top. Start training and some basics settings, etc. 
+
 **part2/cfg.py**
 - Some hyperparameters, seeds setting for certain mode. 
+
 **part2/myDatasets.py**
 - Define your customized Datasets for training process. ## TO DO ##
+
 **part2/tool.py ## TO DO ##**
 - Functions/tools for saving/loading model parameters, Training/validation process, and some other useful function.
+
 **part2/myModels.py ## TO DO ##**
-- DefineyourownmodelzooincludingatleastmyResnetandmyLenet
+- Define your own model zoo including at least my Resnet and my Lenet
+
 **part2/eval.py**
 - Predict the labels for public datasets. ## TO DO ##
+
 Note : In part 2, feel free to modify all the files as long as it’s reasonable and reproducible.
 
